@@ -1,0 +1,21 @@
+name: "Nouvelle Fonctionnalité (Feature)"
+description: "Créer une issue pour une nouvelle fonctionnalité du pipeline"
+title: "[Feature]: "
+labels: ["feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "## Description de la fonctionnalité"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Quel est le besoin ?"
+      description: "Décrivez la fonctionnalité à développer (ex: Ingestion Parquet, Stats de base...)"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critères d'acceptation"
+      description: "Qu'est-ce qui prouve que la fonctionnalité est terminée ? (ex: un test unitaire passe, le README est mis à jour)"
