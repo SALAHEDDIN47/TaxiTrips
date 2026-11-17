@@ -5,6 +5,7 @@ Pipeline d'ingestion et d'analyse de données sur le dataset *NYC Yellow Taxi Tr
 
 -**functionality**
 - **Ingestion Parquet** : Membre 3 (Lecture optimisée avec restriction des colonnes et types)
+- **Trip Stats** : Hamid Oumar Saleh (Calcul des métriques de base des trajets)
 
 ## 📦 Installation
 ```bash
