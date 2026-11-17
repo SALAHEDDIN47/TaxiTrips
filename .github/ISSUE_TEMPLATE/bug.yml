@@ -1,0 +1,17 @@
+name: "Rapport de Bug"
+description: "Signaler un bug en production (pour le Hotfix)"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description du bug"
+      description: "Quel est le comportement observé ?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Comment le reproduire ?"
+      description: "Étapes pour reproduire le bug"
