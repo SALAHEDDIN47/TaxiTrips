@@ -5,6 +5,7 @@ Pipeline d'ingestion et d'analyse de données sur le dataset *NYC Yellow Taxi Tr
 
 -**functionality**
 - **Ingestion Parquet** : Membre 3 (Lecture optimisée avec restriction des colonnes et types)
+- **Charts** : Ahmed (Visualisations graphiques avec Matplotlib)
 
 ## 📦 Installation
 ```bash
